@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/Styles.css">
+    <script src="https://kit.fontawesome.com/2d01b6d49f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="dark grid grid-cols-3" id="Title">
+        <div class="p-1 ml-5">
+            <div class="switch-container">
+                <label class="switch-label">
+                    <input type="checkbox" class="switch-input" id="theme">
+                <div class="switch-slider"></div>
+                </label>
+            </div>
+        </div>
+        <div class="flex justify-center p-3">
+            <h1 class="font-mss text-4xl flicker-4">M7mdful</h1>
+        </div>
+        <div class="grid grid-cols-1 justify-items-end">
+            <div>
+                <button class="rounded-full bg-zinc-700 pb-1 pr-2 pl-2 mt-3 pt-0 mr-4 text-white" id=" langg" onclick="toggleElements();">ع</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mdark flex justify-around tops text-xl p-2" id="nav">
+        <a href="#Down" class="transform hover:text-black" id="nav-en-1">Skills</a>
+        <a href="#Down" class="hover:text-black" id="nav-en-2">Projects</a>
+        <a href="#Down" class="hover:text-black" id="nav-en-3">Contacts</a>
+        <a href="#Down" dir="rtl" lang="ar" class=" hover:text-black" style="display: none;" id="nav-ar-1">المهارات</a>
+        <a href="#Down" dir="rtl" lang="ar" class=" hover:text-black" style="display: none;" id="nav-ar-2">المشاريع</a>
+        <a href="#Down" dir="rtl" lang="ar" class=" hover:text-black" style="display: none;" id="nav-ar-3">التواصل</a>
+    </div>
+
+
+    <div class="flex justify-start mlight p-11 lg:h-svh sm:h-1/2" id="about">
+        <div class="">
+            <h1 class=" heads lg:text-5xl p-16 sm:text-2xl sm:p-0" id="p-en-about">About me</h1>
+            <h1 dir="rtl" lang="ar" class=" heads lg:text-5xl p-16 sm:text-2xl sm:p-0" style="display: none;" id="p-ar-about">عَنِّي</h1>
+            <P class=" text-white p-20 lg:text-3xl sm:text-lg sm:p-1" id="p-en">Hi, I'm Mohammed Al Naji,<br>a dedicated Computer Science student with a passion for building innovative and efficient solutions as a Full Stack Developer.<br>
+                <br>My journey in the tech world began with a deep curiosity for how things work,
+                and it has since grown into a full-fledged love for coding and problem-solving.</P>
+            <P dir="rtl" lang="ar" class=" text-white p-20 lg:text-3xl sm:text-lg sm:p-1" style="display: none;" id="p-ar">
+                مرحبا انا محمد آل ناجي
+                طالب متخصص في علوم الكمبيوتر ولديه شغف لبناء حلول مبتكرة وفعالة كمطور Full Stack.<br>
+                بدأت رحلتي في عالم التكنولوجيا بفضول عميق حول كيفية عمل الأشياء، وتطور منذ ذلك الحين إلى حب كامل للبرمجة وحل المشكلات.</P>
+        </div>
+    </div>
+
+
+    <div class="light mlight text-white grid grid-cols-3 justify-items-center lg:text-4xl p-2 heads sm:text-lg" id="Down">
+        <div id="nav2-en-1">Skills</div>
+        <div id="nav2-en-2">Projects</div>
+        <div id="nav2-en-3">Contacts</div>
+        <div dir="rtl" lang="ar" style="display: none;" id="nav2-ar-1">المهارات</div>
+        <div dir="rtl" lang="ar" style="display: none;" id="nav2-ar-2">المشاريع</div>
+        <div dir="rtl" lang="ar" style="display: none;" id="nav2-ar-3">التواصل</div>
+    </div>
+
+
+    <div class="light mlight grid grid-cols-3 p-11 h-svh" id="fdown" >
+        <div class="grid grid-cols-3 h-1/4">
+            <div class="transition ease-in-out duration-150 hover:scale-125"><img class="w-max transition ease-in-out" src="src/html-5-logo-svgrepo-com.svg" alt="" ></div>
+            <div class="transition ease-in-out duration-150 hover:scale-125"><img class="w-max transition ease-in-out" src="src/css-3-logo-svgrepo-com.svg" alt="" ></div>
+            <div class="transition ease-in-out duration-150 hover:scale-125"><img class="w-max transition ease-in-out" src="src/javascript-logo-svgrepo-com.svg" alt="" ></div>
+            <div class="transition ease-in-out duration-150 hover:scale-125"><img class="w-max " src="src/java-4-logo-svgrepo-com.svg" alt="" ></div>
+        </div>
+        <div class="flex justify-center">
+            <div><h1 class=" lg:text-4xl text-black font-mss transition hover:-scale-x-50 duration-200 sm:text-xl">Soon :)</h1></div>
+        </div>
+        <div class="grid grid-cols-2 ">
+            <div class="transition ease-in-out duration-150 hover:scale-110">
+                <div class="text-center ">
+                    <i class="fa-brands fa-discord fa-2xl" style="color: #ffffff;"></i>
+                </div>
+                <div class="lg:text-2xl text-center pt-4 sm:text-sm">
+                    <h1 class="text-white">@mdxo</h1>
+                </div>
+            </div>
+            <div class="transition ease-in-out duration-150 hover:scale-110">
+                <div class="text-center">
+                    <i class="fa-solid fa-envelope fa-2xl" style="color: #ffffff;"></i>
+                </div>
+                <div class="text-center pt-4 lg:text-2xl sm:text-sm sm:text-left">
+                    <h1 class="text-white">m7mdful@gmail.com</h1>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
